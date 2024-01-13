@@ -1,0 +1,5300 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400|Alegreya+Sans:300,300i,400,400i,700);
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url("/static/fonts/SpartanMB-Bold.woff2") format("woff2"), url("/static/fonts/SpartanMB-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url("/static/fonts/SpartanMB-ExtraBold.woff2") format("woff2"), url("/static/fonts/SpartanMB-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url("/static/fonts/SpartanMB-Black.woff2") format("woff2"), url("/static/fonts/SpartanMB-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url("/static/fonts/SpartanMB-SemiBold.woff2") format("woff2"), url("/static/fonts/SpartanMB-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Alegreya Sans", "Trebuchet MS", "Helvetica Neue", sans-serif;
+  line-height: 32px;
+  font-size: 22px;
+  background-color: #FFF1E5; /* TODO: bakcground */
+}
+
+@media screen and (max-width: 1023px) {
+  html {
+    line-height: 28px;
+  }
+}
+
+@media print {
+  html {
+    line-height: 28px;
+  }
+}
+
+.Sidebar html,
+html.Sidebar {
+  line-height: 28px;
+}
+
+@media screen and (max-width: 1023px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media print {
+  html {
+    font-size: 20px;
+  }
+}
+
+.Sidebar html,
+html.Sidebar {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Spartan MB", "Avenir", "Futura", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar h1,
+  h1.Sidebar {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  h1 {
+    margin-bottom: 28px;
+  }
+}
+
+@media print {
+  h1 {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar h1,
+  h1.NotSidebar {
+    font-size: 47px;
+    line-height: 52.8px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  h1 {
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar h1,
+  h1.Sidebar {
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  h1 {
+    line-height: 28px;
+  }
+}
+
+@media print {
+  h1 {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 900;
+  }
+}
+
+@media print {
+  h1 {
+    line-height: 28px;
+  }
+}
+
+h2 {
+  font-family: "Spartan MB", "Avenir", "Futura", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar h2,
+  h2.Sidebar {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  h2 {
+    margin-bottom: 28px;
+  }
+}
+
+@media print {
+  h2 {
+    margin-bottom: 28px;
+  }
+}
+
+h3 {
+  font-family: "Spartan MB", "Avenir", "Futura", sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  h3 {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar h3,
+  h3.Sidebar {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  h3 {
+    margin-top: 42px;
+  }
+}
+
+@media print {
+  h3 {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h3 {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar h3,
+  h3.Sidebar {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  h3 {
+    margin-bottom: 14px;
+  }
+}
+
+@media print {
+  h3 {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar p,
+  p.Sidebar {
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  p {
+    line-height: 28px;
+  }
+}
+
+@media print {
+  p {
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar p,
+  p.Sidebar {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  p {
+    margin-bottom: 28px;
+  }
+}
+
+@media print {
+  p {
+    margin-bottom: 28px;
+  }
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.PageContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .PageContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .PageContainer {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .PageContainer,
+  .Sidebar.PageContainer {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media print {
+  .PageContainer {
+    flex-direction: column;
+  }
+}
+
+@media print {
+  .PageContainer {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media print {
+
+  .Sidebar .PageContainer,
+  .Sidebar.PageContainer {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.Sidebar .PageContainer,
+.Sidebar.PageContainer {
+  flex-direction: column;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .PageContainer,
+  .Sidebar.PageContainer {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media print {
+
+  .Sidebar .PageContainer,
+  .Sidebar.PageContainer {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.SidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 459px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: relative;
+  border-right: 1px solid #ffdd99;
+  height: 100vh;
+  color: #3b0aff;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .SidebarContainer {
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .SidebarContainer {
+    display: none;
+  }
+}
+
+@media print {
+  .SidebarContainer {
+    display: none;
+  }
+}
+
+.Sidebar .SidebarContainer,
+.Sidebar.SidebarContainer {
+  display: none;
+}
+
+.NarrowHeader {
+  background-color: #fff3f1;
+  color: #ff0a0e;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (max-width: 1023px) {
+  .NarrowHeader {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media print {
+  .NarrowHeader {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.Sidebar .NarrowHeader,
+.Sidebar.NarrowHeader {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Sidebar .NarrowHeader,
+.Sidebar.NarrowHeader {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar .NarrowHeader,
+  .Sidebar.NarrowHeader {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .NarrowHeader {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.NameAndButtons {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .NameAndButtons {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .NameAndButtons {
+    padding-top: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .NameAndButtons {
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media print {
+  .NameAndButtons {
+    padding-top: 14px;
+  }
+}
+
+@media print {
+  .NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 14px;
+  }
+}
+
+@media print {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media print {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 0px;
+  }
+}
+
+@media print {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+@media print {
+
+  .Sidebar .NameAndButtons,
+  .Sidebar.NameAndButtons {
+    padding-bottom: 14px;
+  }
+}
+
+.NameAndButtons a {
+  text-decoration: none;
+}
+
+.NameAndButtons a:hover {
+  text-decoration: underline;
+}
+
+.NameAndButtons .HeaderButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .NameAndButtons .HeaderButtons,
+  .NameAndButtons .NotSidebar.HeaderButtons {
+    display: none;
+  }
+}
+
+@media screen and (min-height: 800px) {
+
+  .Sidebar .NameAndButtons .HeaderButtons,
+  .NameAndButtons .Sidebar.HeaderButtons {
+    display: none;
+  }
+}
+
+@media print {
+  .NameAndButtons .HeaderButtons {
+    display: none;
+  }
+}
+
+.NameAndButtons .HeaderButtons a {
+  flex-grow: 0;
+  vertical-align: top;
+  font-family: "Alegreya Sans SC";
+  color: #990F3D; /* TODO: buttons in header email etc. */
+  text-transform: lowercase;
+  text-align: right;
+  margin-left: 16px;
+}
+
+.Meta {
+  border: none;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .Meta {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Meta {
+    padding-bottom: 28px;
+  }
+}
+
+@media print {
+  .Meta {
+    padding-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .Meta,
+  .NotSidebar.Meta {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .NotSidebar .Meta h1,
+  .NotSidebar.Meta h1 {
+    font-weight: 800;
+  }
+
+  .NotSidebar .Meta .MetaContent,
+  .NotSidebar.Meta .MetaContent {
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 42px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar .Meta .MetaContent,
+  .NotSidebar.Meta .MetaContent {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .NotSidebar .Meta .MetaContent,
+  .NotSidebar.Meta .MetaContent {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) and (min-width: 1024px) {
+
+  .NotSidebar .Meta .MetaContent,
+  .NotSidebar.Meta .MetaContent {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) and (max-width: 1023px) {
+
+  .NotSidebar .Meta .MetaContent,
+  .NotSidebar.Meta .MetaContent {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar .Meta .MetaContent,
+  .NotSidebar.Meta .MetaContent {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar .Meta .MetaContent,
+  .Sidebar .NotSidebar.Meta .MetaContent,
+  .NotSidebar .Meta .Sidebar.MetaContent,
+  .NotSidebar.Meta .Sidebar.MetaContent {
+    padding-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar .Meta .MetaContent,
+  .NotSidebar.Meta .MetaContent {
+    padding-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Meta {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .Meta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-width: 1200px) {
+  .Meta {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .Meta {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .Meta {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .Meta {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .Meta {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .Meta {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .Meta {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Meta h1 {
+    margin-left: -16px;
+    padding-left: 16px;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+
+  .Meta p {
+    font-weight: normal;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .Meta p {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta p,
+  .Meta p.Sidebar {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .Meta p {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Meta .MetaContent button {
+    appearance: none;
+    background-color: unset;
+    font-style: italic;
+    color: #000;
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    display: inline-block;
+    line-height: inherit;
+    font-size: inherit;
+    font-size: 85%;
+    font-family: inherit;
+    transition: opacity 100ms linear;
+  }
+
+  .Meta .MetaContent button button:hover {
+    text-decoration: underline;
+  }
+
+  .Meta .ReactCollapse--collapse {
+    transition: height 350ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+
+@media print {
+  .Meta {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+}
+
+@media print {
+  .Meta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+}
+
+@media print {
+  .Meta {
+    padding-top: 0px;
+  }
+}
+
+@media print {
+  .Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media print {
+  .Meta {
+    margin-top: 0px;
+  }
+}
+
+@media print {
+  .Meta {
+    margin-bottom: 28px;
+  }
+}
+
+@media print {
+  .Meta h1 {
+    margin-left: -16px;
+    padding-left: 16px;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+
+  .Meta p {
+    font-weight: normal;
+  }
+}
+
+@media print {
+  .Meta p {
+    margin-bottom: 14px;
+  }
+}
+
+@media print {
+  .Meta .MetaContent button {
+    appearance: none;
+    background-color: unset;
+    font-style: italic;
+    color: #766afb;
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    display: inline-block;
+    line-height: inherit;
+    font-size: inherit;
+    font-size: 85%;
+    font-family: inherit;
+    transition: opacity 100ms linear;
+  }
+
+  .Meta .MetaContent button button:hover {
+    text-decoration: underline;
+  }
+
+  .Meta .ReactCollapse--collapse {
+    transition: height 350ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+
+.Sidebar .Meta,
+.Sidebar.Meta {
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-top: 0px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-top: 0px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-bottom: 28px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Meta,
+  .Sidebar.Meta {
+    margin-bottom: 28px;
+  }
+}
+
+.Sidebar .Meta h1,
+.Sidebar.Meta h1 {
+  margin-left: -16px;
+  padding-left: 16px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.Sidebar .Meta p,
+.Sidebar.Meta p {
+  font-weight: normal;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .Meta p,
+  .Sidebar.Meta p {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Meta p,
+  .Sidebar.Meta p {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Meta p,
+  .Sidebar.Meta p {
+    margin-bottom: 14px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Meta p,
+  .Sidebar.Meta p {
+    margin-bottom: 14px;
+  }
+}
+
+.Sidebar .Meta .MetaContent button,
+.Sidebar.Meta .MetaContent button {
+  appearance: none;
+  background-color: unset;
+  font-style: italic;
+  color: #766afb;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  display: inline-block;
+  line-height: inherit;
+  font-size: inherit;
+  font-size: 85%;
+  font-family: inherit;
+  transition: opacity 100ms linear;
+}
+
+.Sidebar .Meta .MetaContent button button:hover,
+.Sidebar.Meta .MetaContent button button:hover {
+  text-decoration: underline;
+}
+
+.Sidebar .Meta .ReactCollapse--collapse,
+.Sidebar.Meta .ReactCollapse--collapse {
+  transition: height 350ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media screen and (min-height: 800px) {
+
+  .Sidebar .Meta h1,
+  .Sidebar.Meta h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 50%;
+    flex-grow: 0;
+    line-height: 52.8px;
+  }
+
+  .Sidebar .Meta p,
+  .Sidebar.Meta p {
+    font-weight: 300;
+  }
+}
+
+.SectionList {
+  height: 100vh;
+}
+
+.SectionList:not(.Sidebar) {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .SectionList:not(.Sidebar),
+  .NotSidebar.SectionList:not(.Sidebar) {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .NotSidebar .SectionList:not(.Sidebar) .BeginningBGExtender,
+  .NotSidebar .SectionList:not(.Sidebar) .EndingBGExtender,
+  .NotSidebar.SectionList:not(.Sidebar) .BeginningBGExtender,
+  .NotSidebar.SectionList:not(.Sidebar) .EndingBGExtender {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .NotSidebar .SectionList:not(.Sidebar) .BeginningBGExtender,
+  .NotSidebar.SectionList:not(.Sidebar) .BeginningBGExtender {
+    background-color: #fff3f1;
+  }
+}
+
+.SidebarContainer .SectionList {
+  flex-grow: 0;
+  flex-shrink: 1;
+  font-size: 22px;
+  line-height: 32px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media screen and (max-height: 799px) {
+  .SidebarContainer .SectionList {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-height: 799px) and (min-width: 1024px) and (max-width: 1200px) {
+  .SidebarContainer .SectionList {
+    padding-top: 32px;
+  }
+}
+
+section,
+.NarrowHeader {
+  padding-top: 42px;
+  color: #333; /* TODO: Text colour */
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section,
+  .NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section,
+  .Sidebar .NarrowHeader,
+  section.Sidebar,
+  .Sidebar.NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section,
+  .NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media print {
+
+  section,
+  .NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section,
+  .Sidebar .NarrowHeader,
+  section.Sidebar,
+  .Sidebar.NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section,
+  .Sidebar .NarrowHeader,
+  section.Sidebar,
+  .Sidebar.NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section,
+  .Sidebar .NarrowHeader,
+  section.Sidebar,
+  .Sidebar.NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media print {
+
+  .Sidebar section,
+  .Sidebar .NarrowHeader,
+  section.Sidebar,
+  .Sidebar.NarrowHeader {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section,
+  .NotSidebar .NarrowHeader,
+  section.NotSidebar,
+  .NotSidebar.NarrowHeader {
+    position: relative;
+    margin-right: 1px;
+    height: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  .NotSidebar section::after,
+  .NotSidebar .NarrowHeader::after,
+  section.NotSidebar::after,
+  .NotSidebar.NarrowHeader::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 0;
+    width: calc(200% - 0 * 2);
+    border-right: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  .NotSidebar section:last-of-type::after,
+  .NotSidebar .NarrowHeader:last-of-type::after,
+  section.NotSidebar:last-of-type::after,
+  .NotSidebar.NarrowHeader:last-of-type::after {
+    display: none;
+  }
+
+  .NotSidebar section:not(.Meta),
+  .NotSidebar .NarrowHeader:not(.Meta),
+  section.NotSidebar:not(.Meta),
+  .NotSidebar.NarrowHeader:not(.Meta) {
+    overflow-y: scroll;
+  }
+
+  .NotSidebar section .Inner,
+  .NotSidebar .NarrowHeader .Inner,
+  section.NotSidebar .Inner,
+  .NotSidebar.NarrowHeader .Inner {
+    width: 459px;
+  }
+}
+
+section h1,
+.NarrowHeader h1 {
+  font-family: "Spartan MB", "Avenir", "Futura", sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+
+  section h1,
+  .NarrowHeader h1 {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section h1,
+  .Sidebar .NarrowHeader h1,
+  section h1.Sidebar,
+  .NarrowHeader h1.Sidebar {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section h1,
+  .NarrowHeader h1 {
+    margin-bottom: 0px;
+  }
+}
+
+@media print {
+
+  section h1,
+  .NarrowHeader h1 {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar section h1,
+  .NotSidebar .NarrowHeader h1,
+  section h1.NotSidebar,
+  .NarrowHeader h1.NotSidebar {
+    height: 128px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar section h1,
+  .Sidebar .NotSidebar .NarrowHeader h1,
+  .Sidebar section h1.NotSidebar,
+  .Sidebar .NarrowHeader h1.NotSidebar,
+  .NotSidebar section h1.Sidebar,
+  .NotSidebar .NarrowHeader h1.Sidebar,
+  section h1.Sidebar.NotSidebar,
+  .NarrowHeader h1.Sidebar.NotSidebar {
+    height: 112px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar section h1,
+  .NotSidebar .NarrowHeader h1,
+  section h1.NotSidebar,
+  .NarrowHeader h1.NotSidebar {
+    height: 112px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section h1,
+  .NarrowHeader h1 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: -16px;
+    position: relative;
+  }
+}
+
+@media print {
+
+  section h1,
+  .NarrowHeader h1 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: -16px;
+    position: relative;
+  }
+}
+
+.Sidebar section h1,
+.Sidebar .NarrowHeader h1,
+section h1.Sidebar,
+.NarrowHeader h1.Sidebar {
+  font-size: 22px;
+  font-weight: 800;
+  margin-right: -16px;
+  position: relative;
+}
+
+@media screen and (min-height: 800px) {
+
+  .Sidebar section h1,
+  .Sidebar .NarrowHeader h1,
+  section h1.Sidebar,
+  .NarrowHeader h1.Sidebar {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-height: 799px) {
+
+  .Sidebar section h1,
+  .Sidebar .NarrowHeader h1,
+  section h1.Sidebar,
+  .NarrowHeader h1.Sidebar {
+    font-size: 22px;
+    font-weight: 800;
+  }
+}
+
+section header,
+.NarrowHeader header {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  section header,
+  .NarrowHeader header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media print {
+
+  section header,
+  .NarrowHeader header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.Sidebar section header,
+.Sidebar .NarrowHeader header,
+section header.Sidebar,
+.NarrowHeader header.Sidebar {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Sidebar section header,
+.Sidebar .NarrowHeader header,
+section header.Sidebar,
+.NarrowHeader header.Sidebar {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  section header,
+  .NarrowHeader header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section header,
+  .NotSidebar .NarrowHeader header,
+  section header.NotSidebar,
+  .NarrowHeader header.NotSidebar {
+    height: 224px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar section header,
+  .NotSidebar .NarrowHeader header,
+  section header.NotSidebar,
+  .NarrowHeader header.NotSidebar {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar section header,
+  .Sidebar .NotSidebar .NarrowHeader header,
+  .Sidebar section header.NotSidebar,
+  .Sidebar .NarrowHeader header.NotSidebar,
+  .NotSidebar section header.Sidebar,
+  .NotSidebar .NarrowHeader header.Sidebar,
+  section header.Sidebar.NotSidebar,
+  .NarrowHeader header.Sidebar.NotSidebar {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar section header,
+  .NotSidebar .NarrowHeader header,
+  section header.NotSidebar,
+  .NarrowHeader header.NotSidebar {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section header p,
+  .NotSidebar .NarrowHeader header p,
+  section header.NotSidebar p,
+  .NarrowHeader header.NotSidebar p {
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section header,
+  .NarrowHeader header {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section header,
+  .NarrowHeader header {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section header,
+  .NarrowHeader header {
+    height: 96px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    height: 84px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section header,
+  .NarrowHeader header {
+    height: 84px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section header,
+  .NarrowHeader header {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section header,
+  .NarrowHeader header {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section header p,
+  .NarrowHeader header p {
+    font-style: italic;
+    font-weight: 300;
+  }
+}
+
+@media print {
+
+  section header,
+  .NarrowHeader header {
+    margin-top: 14px;
+  }
+}
+
+@media print {
+
+  section header,
+  .NarrowHeader header {
+    height: 84px;
+  }
+}
+
+@media print {
+
+  section header,
+  .NarrowHeader header {
+    padding-top: 28px;
+  }
+}
+
+@media print {
+
+  section header p,
+  .NarrowHeader header p {
+    font-style: italic;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    margin-top: 14px;
+  }
+}
+
+@media print {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    height: 96px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    height: 84px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    height: 84px;
+  }
+}
+
+@media print {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    height: 84px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    padding-top: 28px;
+  }
+}
+
+@media print {
+
+  .Sidebar section header,
+  .Sidebar .NarrowHeader header,
+  section header.Sidebar,
+  .NarrowHeader header.Sidebar {
+    padding-top: 28px;
+  }
+}
+
+.Sidebar section header p,
+.Sidebar .NarrowHeader header p,
+section header.Sidebar p,
+.NarrowHeader header.Sidebar p {
+  font-style: italic;
+  font-weight: 300;
+}
+
+section header a,
+section.Meta a,
+.NarrowHeader header a,
+.NarrowHeader.Meta a {
+  text-decoration-color: rgba(59, 10, 255, 0.4);
+}
+
+section header a:hover,
+section.Meta a:hover,
+.NarrowHeader header a:hover,
+.NarrowHeader.Meta a:hover {
+  text-decoration-color: unset;
+}
+
+@media screen and (max-width: 1023px) {
+
+  section header,
+  section.Meta,
+  .NarrowHeader header,
+  .NarrowHeader.Meta {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section header,
+  section.Meta,
+  .NarrowHeader header,
+  .NarrowHeader.Meta {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar section.Meta,
+  .Sidebar .NarrowHeader header,
+  .Sidebar .NarrowHeader.Meta,
+  section header.Sidebar,
+  section.Sidebar.Meta,
+  .NarrowHeader header.Sidebar,
+  .Sidebar.NarrowHeader.Meta {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section header,
+  section.Meta,
+  .NarrowHeader header,
+  .NarrowHeader.Meta {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 350px) {
+
+  section header p,
+  section.Meta p,
+  .NarrowHeader header p,
+  .NarrowHeader.Meta p {
+    font-size: 18px;
+  }
+}
+
+@media print {
+
+  section header,
+  section.Meta,
+  .NarrowHeader header,
+  .NarrowHeader.Meta {
+    overflow: hidden;
+  }
+}
+
+@media print {
+
+  section header,
+  section.Meta,
+  .NarrowHeader header,
+  .NarrowHeader.Meta {
+    margin-bottom: 14px;
+  }
+}
+
+.Sidebar section header,
+.Sidebar section.Meta,
+.Sidebar .NarrowHeader header,
+.Sidebar .NarrowHeader.Meta,
+section header.Sidebar,
+section.Sidebar.Meta,
+.NarrowHeader header.Sidebar,
+.Sidebar.NarrowHeader.Meta {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section header,
+  .Sidebar section.Meta,
+  .Sidebar .NarrowHeader header,
+  .Sidebar .NarrowHeader.Meta,
+  section header.Sidebar,
+  section.Sidebar.Meta,
+  .NarrowHeader header.Sidebar,
+  .Sidebar.NarrowHeader.Meta {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section header,
+  .Sidebar section.Meta,
+  .Sidebar .NarrowHeader header,
+  .Sidebar .NarrowHeader.Meta,
+  section header.Sidebar,
+  section.Sidebar.Meta,
+  .NarrowHeader header.Sidebar,
+  .Sidebar.NarrowHeader.Meta {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section header,
+  .Sidebar section.Meta,
+  .Sidebar .NarrowHeader header,
+  .Sidebar .NarrowHeader.Meta,
+  section header.Sidebar,
+  section.Sidebar.Meta,
+  .NarrowHeader header.Sidebar,
+  .Sidebar.NarrowHeader.Meta {
+    margin-bottom: 14px;
+  }
+}
+
+@media print {
+
+  .Sidebar section header,
+  .Sidebar section.Meta,
+  .Sidebar .NarrowHeader header,
+  .Sidebar .NarrowHeader.Meta,
+  section header.Sidebar,
+  section.Sidebar.Meta,
+  .NarrowHeader header.Sidebar,
+  .Sidebar.NarrowHeader.Meta {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .Sidebar section header p,
+  .Sidebar section.Meta p,
+  .Sidebar .NarrowHeader header p,
+  .Sidebar .NarrowHeader.Meta p,
+  section header.Sidebar p,
+  section.Sidebar.Meta p,
+  .NarrowHeader header.Sidebar p,
+  .Sidebar.NarrowHeader.Meta p {
+    font-size: 18px;
+  }
+}
+
+section ol li,
+.NarrowHeader ol li {
+  list-style: none;
+}
+
+section ol li a,
+.NarrowHeader ol li a {
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+  color: inherit;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section ol.MajorProjects,
+  .NarrowHeader ol.MajorProjects {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects,
+  .Sidebar .NarrowHeader ol.MajorProjects,
+  section ol.Sidebar.MajorProjects,
+  .NarrowHeader ol.Sidebar.MajorProjects {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section ol.MajorProjects,
+  .NarrowHeader ol.MajorProjects {
+    margin-top: 28px;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects,
+  .NarrowHeader ol.MajorProjects {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section ol.MajorProjects,
+  .Sidebar .NarrowHeader ol.MajorProjects,
+  section ol.Sidebar.MajorProjects,
+  .NarrowHeader ol.Sidebar.MajorProjects {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects,
+  .Sidebar .NarrowHeader ol.MajorProjects,
+  section ol.Sidebar.MajorProjects,
+  .NarrowHeader ol.Sidebar.MajorProjects {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section ol.MajorProjects,
+  .Sidebar .NarrowHeader ol.MajorProjects,
+  section ol.Sidebar.MajorProjects,
+  .NarrowHeader ol.Sidebar.MajorProjects {
+    margin-top: 28px;
+  }
+}
+
+@media print {
+
+  .Sidebar section ol.MajorProjects,
+  .Sidebar .NarrowHeader ol.MajorProjects,
+  section ol.Sidebar.MajorProjects,
+  .NarrowHeader ol.Sidebar.MajorProjects {
+    margin-top: 28px;
+  }
+}
+
+section ol.MajorProjects li,
+.NarrowHeader ol.MajorProjects li {
+  list-style: none;
+  margin-bottom: 0;
+  position: relative;
+  display: block;
+  padding-left: 42px;
+  padding-right: 42px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar section ol.MajorProjects li,
+  .NotSidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.NotSidebar,
+  .NarrowHeader ol.MajorProjects li.NotSidebar {
+    height: 192px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar section ol.MajorProjects li,
+  .Sidebar .NotSidebar .NarrowHeader ol.MajorProjects li,
+  .Sidebar section ol.MajorProjects li.NotSidebar,
+  .Sidebar .NarrowHeader ol.MajorProjects li.NotSidebar,
+  .NotSidebar section ol.MajorProjects li.Sidebar,
+  .NotSidebar .NarrowHeader ol.MajorProjects li.Sidebar,
+  section ol.MajorProjects li.Sidebar.NotSidebar,
+  .NarrowHeader ol.MajorProjects li.Sidebar.NotSidebar {
+    height: 168px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar section ol.MajorProjects li,
+  .NotSidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.NotSidebar,
+  .NarrowHeader ol.MajorProjects li.NotSidebar {
+    height: 168px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section ol.MajorProjects li,
+  .NarrowHeader ol.MajorProjects li {
+    height: 128px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li,
+  .Sidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.Sidebar,
+  .NarrowHeader ol.MajorProjects li.Sidebar {
+    height: 112px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section ol.MajorProjects li,
+  .NarrowHeader ol.MajorProjects li {
+    height: 112px;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li,
+  .NarrowHeader ol.MajorProjects li {
+    height: 112px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section ol.MajorProjects li,
+  .Sidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.Sidebar,
+  .NarrowHeader ol.MajorProjects li.Sidebar {
+    height: 128px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li,
+  .Sidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.Sidebar,
+  .NarrowHeader ol.MajorProjects li.Sidebar {
+    height: 112px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section ol.MajorProjects li,
+  .Sidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.Sidebar,
+  .NarrowHeader ol.MajorProjects li.Sidebar {
+    height: 112px;
+  }
+}
+
+@media print {
+
+  .Sidebar section ol.MajorProjects li,
+  .Sidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.Sidebar,
+  .NarrowHeader ol.MajorProjects li.Sidebar {
+    height: 112px;
+  }
+}
+
+section ol.MajorProjects li:before,
+.NarrowHeader ol.MajorProjects li:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 459px;
+  transition: background-color 0.08s linear;
+  background-color: rgba(242, 223, 206, 0); /* TODO: Major project highlight*/
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  section ol.MajorProjects li:before,
+  .NarrowHeader ol.MajorProjects li:before {
+    width: 410px;
+  }
+}
+
+section ol.MajorProjects li.Active:before,
+.NarrowHeader ol.MajorProjects li.Active:before {
+  background-color: rgba(242, 223, 206, 0.35); /* TODO: Major project highlight*/
+}
+
+section ol.MajorProjects li:not(.Disabled):hover,
+.NarrowHeader ol.MajorProjects li:not(.Disabled):hover {
+  transition: background-color 0.04s linear;
+}
+
+section ol.MajorProjects li:not(.Disabled):hover:before,
+.NarrowHeader ol.MajorProjects li:not(.Disabled):hover:before {
+  background-color: rgba(242, 223, 206, 0.18); /* TODO: Major project highlight*/
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.MajorProjects li,
+  .NarrowHeader ol.MajorProjects li {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li,
+  .NarrowHeader ol.MajorProjects li {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.Sidebar section ol.MajorProjects li,
+.Sidebar .NarrowHeader ol.MajorProjects li,
+section ol.MajorProjects li.Sidebar,
+.NarrowHeader ol.MajorProjects li.Sidebar {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Sidebar section ol.MajorProjects li,
+.Sidebar .NarrowHeader ol.MajorProjects li,
+section ol.MajorProjects li.Sidebar,
+.NarrowHeader ol.MajorProjects li.Sidebar {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar section ol.MajorProjects li,
+  .Sidebar .NarrowHeader ol.MajorProjects li,
+  section ol.MajorProjects li.Sidebar,
+  .NarrowHeader ol.MajorProjects li.Sidebar {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  section ol.MajorProjects li,
+  .NarrowHeader ol.MajorProjects li {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section ol.MajorProjects li::after,
+  .NotSidebar .NarrowHeader ol.MajorProjects li::after,
+  section ol.MajorProjects li.NotSidebar::after,
+  .NarrowHeader ol.MajorProjects li.NotSidebar::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 42px;
+    width: calc(200% - 42px * 2);
+    border-top: solid 1px #ffdd99; /* TODO: Horixontal line*/
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  .NotSidebar section ol.MajorProjects li:last-of-type::after,
+  .NotSidebar .NarrowHeader ol.MajorProjects li:last-of-type::after,
+  section ol.MajorProjects li.NotSidebar:last-of-type::after,
+  .NarrowHeader ol.MajorProjects li.NotSidebar:last-of-type::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 42px;
+    width: calc(200% - 42px * 2);
+    border-bottom: solid 1px #ffdd99; /* TODO: Horixontal line*/
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section ol.MajorProjects li:first-of-type,
+  .NarrowHeader ol.MajorProjects li:first-of-type {
+    margin-top: -16px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li:first-of-type,
+  .Sidebar .NarrowHeader ol.MajorProjects li:first-of-type,
+  section ol.MajorProjects li.Sidebar:first-of-type,
+  .NarrowHeader ol.MajorProjects li.Sidebar:first-of-type {
+    margin-top: -14px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section ol.MajorProjects li:first-of-type,
+  .NarrowHeader ol.MajorProjects li:first-of-type {
+    margin-top: -14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.MajorProjects li::after,
+  .NarrowHeader ol.MajorProjects li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 16px;
+    width: calc(200% - 16px * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  section ol.MajorProjects li:last-of-type::after,
+  .NarrowHeader ol.MajorProjects li:last-of-type::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 16px;
+    width: calc(200% - 16px * 2);
+    border-bottom: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  section ol.MajorProjects li ::after,
+  .NarrowHeader ol.MajorProjects li ::after {
+    display: none;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li:first-of-type,
+  .NarrowHeader ol.MajorProjects li:first-of-type {
+    margin-top: -14px;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li::after,
+  .NarrowHeader ol.MajorProjects li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 16px;
+    width: calc(200% - 16px * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  section ol.MajorProjects li:last-of-type::after,
+  .NarrowHeader ol.MajorProjects li:last-of-type::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 16px;
+    width: calc(200% - 16px * 2);
+    border-bottom: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  section ol.MajorProjects li ::after,
+  .NarrowHeader ol.MajorProjects li ::after {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section ol.MajorProjects li:first-of-type,
+  .Sidebar .NarrowHeader ol.MajorProjects li:first-of-type,
+  section ol.MajorProjects li.Sidebar:first-of-type,
+  .NarrowHeader ol.MajorProjects li.Sidebar:first-of-type {
+    margin-top: -16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li:first-of-type,
+  .Sidebar .NarrowHeader ol.MajorProjects li:first-of-type,
+  section ol.MajorProjects li.Sidebar:first-of-type,
+  .NarrowHeader ol.MajorProjects li.Sidebar:first-of-type {
+    margin-top: -14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section ol.MajorProjects li:first-of-type,
+  .Sidebar .NarrowHeader ol.MajorProjects li:first-of-type,
+  section ol.MajorProjects li.Sidebar:first-of-type,
+  .NarrowHeader ol.MajorProjects li.Sidebar:first-of-type {
+    margin-top: -14px;
+  }
+}
+
+@media print {
+
+  .Sidebar section ol.MajorProjects li:first-of-type,
+  .Sidebar .NarrowHeader ol.MajorProjects li:first-of-type,
+  section ol.MajorProjects li.Sidebar:first-of-type,
+  .NarrowHeader ol.MajorProjects li.Sidebar:first-of-type {
+    margin-top: -14px;
+  }
+}
+
+.Sidebar section ol.MajorProjects li::after,
+.Sidebar .NarrowHeader ol.MajorProjects li::after,
+section ol.MajorProjects li.Sidebar::after,
+.NarrowHeader ol.MajorProjects li.Sidebar::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 16px;
+  width: calc(200% - 16px * 2);
+  border-top: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.Sidebar section ol.MajorProjects li:last-of-type::after,
+.Sidebar .NarrowHeader ol.MajorProjects li:last-of-type::after,
+section ol.MajorProjects li.Sidebar:last-of-type::after,
+.NarrowHeader ol.MajorProjects li.Sidebar:last-of-type::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 16px;
+  width: calc(200% - 16px * 2);
+  border-bottom: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.Sidebar section ol.MajorProjects li ::after,
+.Sidebar .NarrowHeader ol.MajorProjects li ::after,
+section ol.MajorProjects li.Sidebar ::after,
+.NarrowHeader ol.MajorProjects li.Sidebar ::after {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.MajorProjects li::before,
+  .NarrowHeader ol.MajorProjects li::before {
+    width: calc(min(100vw, 500px));
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li::before,
+  .NarrowHeader ol.MajorProjects li::before {
+    width: calc(min(100vw, 500px));
+  }
+}
+
+.Sidebar section ol.MajorProjects li::after,
+.Sidebar .NarrowHeader ol.MajorProjects li::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 42px;
+  width: calc(200% - 42px * 2);
+  border-top: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.Sidebar section ol.MajorProjects li:last-of-type::after,
+.Sidebar .NarrowHeader ol.MajorProjects li:last-of-type::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 42px;
+  width: calc(200% - 42px * 2);
+  border-bottom: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar section ol.MajorProjects li::after,
+  .Sidebar .NarrowHeader ol.MajorProjects li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 32px;
+    width: calc(200% - 32px * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  .Sidebar section ol.MajorProjects li:last-of-type::after,
+  .Sidebar .NarrowHeader ol.MajorProjects li:last-of-type::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 32px;
+    width: calc(200% - 32px * 2);
+    border-bottom: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+section ol.MajorProjects li.Disabled,
+.NarrowHeader ol.MajorProjects li.Disabled {
+  cursor: not-allowed;
+}
+
+section ol.MajorProjects li.Disabled p,
+section ol.MajorProjects li.Disabled h3,
+.NarrowHeader ol.MajorProjects li.Disabled p,
+.NarrowHeader ol.MajorProjects li.Disabled h3 {
+  opacity: 0.4;
+}
+
+section ol.MajorProjects li h3,
+.NarrowHeader ol.MajorProjects li h3 {
+  font-family: "Spartan MB", "Avenir", "Futura", sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    padding-top: 28px;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    margin-bottom: 28px;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    margin-bottom: 0px;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li h3,
+  .NarrowHeader ol.MajorProjects li h3 {
+    margin-bottom: 0px;
+  }
+}
+
+.Sidebar section ol.MajorProjects li h3,
+.Sidebar .NarrowHeader ol.MajorProjects li h3,
+section ol.MajorProjects li h3.Sidebar,
+.NarrowHeader ol.MajorProjects li h3.Sidebar {
+  padding-top: 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    margin-bottom: 0px;
+  }
+}
+
+@media print {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-height: 800px) {
+
+  .Sidebar section ol.MajorProjects li h3,
+  .Sidebar .NarrowHeader ol.MajorProjects li h3,
+  section ol.MajorProjects li h3.Sidebar,
+  .NarrowHeader ol.MajorProjects li h3.Sidebar {
+    padding-top: 20px;
+    font-size: 22px;
+  }
+}
+
+section ol.MajorProjects li p,
+.NarrowHeader ol.MajorProjects li p {
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section ol.MajorProjects li p,
+  .NotSidebar .NarrowHeader ol.MajorProjects li p,
+  section ol.MajorProjects li p.NotSidebar,
+  .NarrowHeader ol.MajorProjects li p.NotSidebar {
+    font-size: 17px;
+    line-height: 21px;
+    width: 180px;
+  }
+
+  .NotSidebar section ol.MajorProjects li p[narrowonly="true"],
+  .NotSidebar .NarrowHeader ol.MajorProjects li p[narrowonly="true"],
+  section ol.MajorProjects li p.NotSidebar[narrowonly="true"],
+  .NarrowHeader ol.MajorProjects li p.NotSidebar[narrowonly="true"] {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.MajorProjects li p,
+  .NarrowHeader ol.MajorProjects li p {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 22px;
+    width: 290px;
+    font-weight: 300;
+  }
+
+  section ol.MajorProjects li p[wideonly="true"],
+  .NarrowHeader ol.MajorProjects li p[wideonly="true"] {
+    display: none;
+  }
+}
+
+@media print {
+
+  section ol.MajorProjects li p,
+  .NarrowHeader ol.MajorProjects li p {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 22px;
+    width: 290px;
+    font-weight: 300;
+  }
+
+  section ol.MajorProjects li p[wideonly="true"],
+  .NarrowHeader ol.MajorProjects li p[wideonly="true"] {
+    display: none;
+  }
+}
+
+.Sidebar section ol.MajorProjects li p,
+.Sidebar .NarrowHeader ol.MajorProjects li p,
+section ol.MajorProjects li p.Sidebar,
+.NarrowHeader ol.MajorProjects li p.Sidebar {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  width: 290px;
+  font-weight: 300;
+}
+
+.Sidebar section ol.MajorProjects li p[wideonly="true"],
+.Sidebar .NarrowHeader ol.MajorProjects li p[wideonly="true"],
+section ol.MajorProjects li p.Sidebar[wideonly="true"],
+.NarrowHeader ol.MajorProjects li p.Sidebar[wideonly="true"] {
+  display: none;
+}
+
+@media screen and (min-height: 800px) {
+
+  .Sidebar section ol.MajorProjects li p,
+  .Sidebar .NarrowHeader ol.MajorProjects li p,
+  section ol.MajorProjects li p.Sidebar,
+  .NarrowHeader ol.MajorProjects li p.Sidebar {
+    font-size: 20px;
+    line-height: 26px;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.Notes,
+  .Sidebar .NarrowHeader ol.Notes,
+  section ol.Sidebar.Notes,
+  .NarrowHeader ol.Sidebar.Notes {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    margin-top: 28px;
+  }
+}
+
+@media print {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section ol.Notes:not(.NoLabel),
+  .NotSidebar .NarrowHeader ol.Notes:not(.NoLabel),
+  section ol.NotSidebar.Notes:not(.NoLabel),
+  .NarrowHeader ol.NotSidebar.Notes:not(.NoLabel) {
+    margin-left: 73.5px;
+  }
+}
+
+section ol.Notes.NoLabel,
+.NarrowHeader ol.Notes.NoLabel {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.Notes.NoLabel,
+  .NarrowHeader ol.Notes.NoLabel {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media print {
+
+  section ol.Notes.NoLabel,
+  .NarrowHeader ol.Notes.NoLabel {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.Sidebar section ol.Notes.NoLabel,
+.Sidebar .NarrowHeader ol.Notes.NoLabel,
+section ol.Sidebar.Notes.NoLabel,
+.NarrowHeader ol.Sidebar.Notes.NoLabel {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Sidebar section ol.Notes.NoLabel,
+.Sidebar .NarrowHeader ol.Notes.NoLabel,
+section ol.Sidebar.Notes.NoLabel,
+.NarrowHeader ol.Sidebar.Notes.NoLabel {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar section ol.Notes.NoLabel,
+  .Sidebar .NarrowHeader ol.Notes.NoLabel,
+  section ol.Sidebar.Notes.NoLabel,
+  .NarrowHeader ol.Sidebar.Notes.NoLabel {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  section ol.Notes.NoLabel,
+  .NarrowHeader ol.Notes.NoLabel {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+section ol.Notes.NoLabel li:before,
+.NarrowHeader ol.Notes.NoLabel li:before {
+  left: -42px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  section ol.Notes.NoLabel li:before,
+  .NarrowHeader ol.Notes.NoLabel li:before {
+    left: -32px;
+  }
+}
+
+section ol.Notes li,
+.NarrowHeader ol.Notes li {
+  position: relative;
+}
+
+section ol.Notes li:before,
+.NarrowHeader ol.Notes li:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: -73.5px;
+  width: 459px;
+  transition: background-color 0.1s linear;
+  background-color: rgba(242, 223, 206, 0); /* TODO: Notes highlight*/
+}
+
+section ol.Notes li.Active:before,
+.NarrowHeader ol.Notes li.Active:before {
+  background-color: rgba(242, 223, 206, 0.35); /* TODO: Notes highlight*/
+}
+
+section ol.Notes li:not(.Disabled):hover,
+.NarrowHeader ol.Notes li:not(.Disabled):hover {
+  transition: background-color 0.04s linear;
+}
+
+section ol.Notes li:not(.Disabled):hover:before,
+.NarrowHeader ol.Notes li:not(.Disabled):hover:before {
+  background-color: rgba(242, 224, 206, 0.18);  /* TODO:Notes highlght*/
+}
+
+section ol.Notes li.Disabled,
+.NarrowHeader ol.Notes li.Disabled {
+  cursor: not-allowed;
+}
+
+section ol.Notes li.Disabled p,
+section ol.Notes li.Disabled h3,
+.NarrowHeader ol.Notes li.Disabled p,
+.NarrowHeader ol.Notes li.Disabled h3 {
+  opacity: 0.4;
+  font-style: italic;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section ol.Notes li,
+  .NotSidebar .NarrowHeader ol.Notes li,
+  section ol.NotSidebar.Notes li,
+  .NarrowHeader ol.NotSidebar.Notes li {
+    top: -12px;
+    padding-top: 12px;
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar section ol.Notes li,
+  .NotSidebar .NarrowHeader ol.Notes li,
+  section ol.NotSidebar.Notes li,
+  .NarrowHeader ol.NotSidebar.Notes li {
+    height: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar section ol.Notes li,
+  .Sidebar .NotSidebar .NarrowHeader ol.Notes li,
+  .Sidebar section ol.NotSidebar.Notes li,
+  .Sidebar .NarrowHeader ol.NotSidebar.Notes li,
+  .NotSidebar section ol.Notes li.Sidebar,
+  .NotSidebar .NarrowHeader ol.Notes li.Sidebar,
+  section ol.NotSidebar.Notes li.Sidebar,
+  .NarrowHeader ol.NotSidebar.Notes li.Sidebar {
+    height: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar section ol.Notes li,
+  .NotSidebar .NarrowHeader ol.Notes li,
+  section ol.NotSidebar.Notes li,
+  .NarrowHeader ol.NotSidebar.Notes li {
+    height: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section ol.Notes li a,
+  .NotSidebar .NarrowHeader ol.Notes li a,
+  section ol.NotSidebar.Notes li a,
+  .NarrowHeader ol.NotSidebar.Notes li a {
+    margin-right: 8px;
+    border-radius: 8px;
+  }
+
+  .NotSidebar section ol.Notes li p,
+  .NotSidebar .NarrowHeader ol.Notes li p,
+  section ol.NotSidebar.Notes li p,
+  .NarrowHeader ol.NotSidebar.Notes li p {
+    line-height: inherit;
+    font-weight: 300;
+    color: #333; /* TODO: Note explaination*/
+  }
+}
+
+section ol.Notes h3,
+.NarrowHeader ol.Notes h3 {
+  font-family: inherit;
+  line-height: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+  font-weight: 500;
+}
+
+section ol.Notes a,
+.NarrowHeader ol.Notes a {
+  position: relative;
+}
+
+section ol.Notes img.Locked,
+.NarrowHeader ol.Notes img.Locked {
+  position: absolute;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section ol.Notes img.Locked,
+  .NotSidebar .NarrowHeader ol.Notes img.Locked,
+  section ol.Notes img.NotSidebar.Locked,
+  .NarrowHeader ol.Notes img.NotSidebar.Locked {
+    right: -16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.Notes img.Locked,
+  .NarrowHeader ol.Notes img.Locked {
+    right: -8px;
+    top: 6px;
+  }
+}
+
+@media print {
+
+  section ol.Notes img.Locked,
+  .NarrowHeader ol.Notes img.Locked {
+    right: -8px;
+    top: 6px;
+  }
+}
+
+.Sidebar section ol.Notes img.Locked,
+.Sidebar .NarrowHeader ol.Notes img.Locked,
+section ol.Notes img.Sidebar.Locked,
+.NarrowHeader ol.Notes img.Sidebar.Locked {
+  right: -8px;
+  top: 6px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    margin-left: 0;
+    padding-left: 48px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    min-height: 64px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.Notes,
+  .Sidebar .NarrowHeader ol.Notes,
+  section ol.Sidebar.Notes,
+  .NarrowHeader ol.Sidebar.Notes {
+    min-height: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    min-height: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.Notes li,
+  .NarrowHeader ol.Notes li {
+    font-size: 18px;
+    line-height: 33px;
+    width: 100%;
+  }
+
+  section ol.Notes li h3,
+  .NarrowHeader ol.Notes li h3 {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  section ol.Notes li a,
+  .NarrowHeader ol.Notes li a {
+    font-weight: normal;
+    margin-right: 0;
+    padding-right: 8px;
+  }
+
+  section ol.Notes li p,
+  .NarrowHeader ol.Notes li p {
+    display: none;
+  }
+
+  section ol.Notes li::after,
+  .NarrowHeader ol.Notes li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 0px;
+    width: calc(200% - 0px * 2);
+    border-bottom: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  section ol.Notes li:last-of-type::after,
+  section ol.Notes li:nth-of-type(3)::after,
+  .NarrowHeader ol.Notes li:last-of-type::after,
+  .NarrowHeader ol.Notes li:nth-of-type(3)::after {
+    display: none;
+  }
+}
+
+@media print {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    margin-left: 0;
+    padding-left: 48px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media print {
+
+  section ol.Notes,
+  .NarrowHeader ol.Notes {
+    min-height: 56px;
+  }
+}
+
+@media print {
+
+  section ol.Notes li,
+  .NarrowHeader ol.Notes li {
+    font-size: 18px;
+    line-height: 33px;
+    width: 100%;
+  }
+
+  section ol.Notes li h3,
+  .NarrowHeader ol.Notes li h3 {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  section ol.Notes li a,
+  .NarrowHeader ol.Notes li a {
+    font-weight: normal;
+    margin-right: 0;
+    padding-right: 8px;
+  }
+
+  section ol.Notes li p,
+  .NarrowHeader ol.Notes li p {
+    display: none;
+  }
+
+  section ol.Notes li::after,
+  .NarrowHeader ol.Notes li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 0px;
+    width: calc(200% - 0px * 2);
+    border-bottom: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  section ol.Notes li:last-of-type::after,
+  section ol.Notes li:nth-of-type(3)::after,
+  .NarrowHeader ol.Notes li:last-of-type::after,
+  .NarrowHeader ol.Notes li:nth-of-type(3)::after {
+    display: none;
+  }
+}
+
+.Sidebar section ol.Notes,
+.Sidebar .NarrowHeader ol.Notes,
+section ol.Sidebar.Notes,
+.NarrowHeader ol.Sidebar.Notes {
+  margin-top: 0px;
+  padding-top: 7px;
+  padding-bottom: 12px;
+  margin-left: 0;
+  padding-left: 48px;
+  width: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar section ol.Notes,
+  .Sidebar .NarrowHeader ol.Notes,
+  section ol.Sidebar.Notes,
+  .NarrowHeader ol.Sidebar.Notes {
+    min-height: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar section ol.Notes,
+  .Sidebar .NarrowHeader ol.Notes,
+  section ol.Sidebar.Notes,
+  .NarrowHeader ol.Sidebar.Notes {
+    min-height: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar section ol.Notes,
+  .Sidebar .NarrowHeader ol.Notes,
+  section ol.Sidebar.Notes,
+  .NarrowHeader ol.Sidebar.Notes {
+    min-height: 56px;
+  }
+}
+
+@media print {
+
+  .Sidebar section ol.Notes,
+  .Sidebar .NarrowHeader ol.Notes,
+  section ol.Sidebar.Notes,
+  .NarrowHeader ol.Sidebar.Notes {
+    min-height: 56px;
+  }
+}
+
+.Sidebar section ol.Notes li,
+.Sidebar .NarrowHeader ol.Notes li,
+section ol.Sidebar.Notes li,
+.NarrowHeader ol.Sidebar.Notes li {
+  font-size: 18px;
+  line-height: 33px;
+  width: 100%;
+}
+
+.Sidebar section ol.Notes li h3,
+.Sidebar .NarrowHeader ol.Notes li h3,
+section ol.Sidebar.Notes li h3,
+.NarrowHeader ol.Sidebar.Notes li h3 {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Sidebar section ol.Notes li a,
+.Sidebar .NarrowHeader ol.Notes li a,
+section ol.Sidebar.Notes li a,
+.NarrowHeader ol.Sidebar.Notes li a {
+  font-weight: normal;
+  margin-right: 0;
+  padding-right: 8px;
+}
+
+.Sidebar section ol.Notes li p,
+.Sidebar .NarrowHeader ol.Notes li p,
+section ol.Sidebar.Notes li p,
+.NarrowHeader ol.Sidebar.Notes li p {
+  display: none;
+}
+
+.Sidebar section ol.Notes li::after,
+.Sidebar .NarrowHeader ol.Notes li::after,
+section ol.Sidebar.Notes li::after,
+.NarrowHeader ol.Sidebar.Notes li::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 0px;
+  width: calc(200% - 0px * 2);
+  border-bottom: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.Sidebar section ol.Notes li:last-of-type::after,
+.Sidebar section ol.Notes li:nth-of-type(3)::after,
+.Sidebar .NarrowHeader ol.Notes li:last-of-type::after,
+.Sidebar .NarrowHeader ol.Notes li:nth-of-type(3)::after,
+section ol.Sidebar.Notes li:last-of-type::after,
+section ol.Sidebar.Notes li:nth-of-type(3)::after,
+.NarrowHeader ol.Sidebar.Notes li:last-of-type::after,
+.NarrowHeader ol.Sidebar.Notes li:nth-of-type(3)::after {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+
+  section ol.Notes li:before,
+  .NarrowHeader ol.Notes li:before {
+    left: -48px;
+    width: calc(min(100vw, 500px));
+  }
+}
+
+@media print {
+
+  section ol.Notes li:before,
+  .NarrowHeader ol.Notes li:before {
+    left: -48px;
+    width: calc(min(100vw, 500px));
+  }
+}
+
+.Sidebar section ol.Notes,
+.Sidebar .NarrowHeader ol.Notes,
+section ol.Sidebar.Notes,
+.NarrowHeader ol.Sidebar.Notes {
+  padding-left: 78px;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar section ol.Notes,
+  .Sidebar .NarrowHeader ol.Notes,
+  section ol.Sidebar.Notes,
+  .NarrowHeader ol.Sidebar.Notes {
+    padding-left: 62px;
+  }
+}
+
+.Sidebar section ol.Notes li,
+.Sidebar .NarrowHeader ol.Notes li,
+section ol.Sidebar.Notes li,
+.NarrowHeader ol.Sidebar.Notes li {
+  font-size: 20px;
+  line-height: 37px;
+}
+
+.Sidebar section ol.Notes li:before,
+.Sidebar .NarrowHeader ol.Notes li:before,
+section ol.Sidebar.Notes li:before,
+.NarrowHeader ol.Sidebar.Notes li:before {
+  left: -79px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar section ol.Notes li:before,
+  .Sidebar .NarrowHeader ol.Notes li:before,
+  section ol.Sidebar.Notes li:before,
+  .NarrowHeader ol.Sidebar.Notes li:before {
+    left: -62px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .Standalone ol.Notes,
+  .Standalone ol.NotSidebar.Notes {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar .Standalone ol.Notes,
+  .Standalone ol.NotSidebar.Notes {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar .Standalone ol.Notes,
+  .Sidebar .Standalone ol.NotSidebar.Notes,
+  .NotSidebar .Standalone ol.Sidebar.Notes,
+  .Standalone ol.Sidebar.NotSidebar.Notes {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar .Standalone ol.Notes,
+  .Standalone ol.NotSidebar.Notes {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar .Standalone ol.Notes,
+  .Standalone ol.NotSidebar.Notes {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar .Standalone ol.Notes,
+  .Sidebar .Standalone ol.NotSidebar.Notes,
+  .NotSidebar .Standalone ol.Sidebar.Notes,
+  .Standalone ol.Sidebar.NotSidebar.Notes {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar .Standalone ol.Notes,
+  .Standalone ol.NotSidebar.Notes {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .Standalone ol.Notes::after,
+  .Standalone ol.NotSidebar.Notes::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: -31.5px;
+    width: calc(200% - -31.5px * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Standalone ol.Notes::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 16px;
+    width: calc(200% - 16px * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+@media print {
+  .Standalone ol.Notes::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 16px;
+    width: calc(200% - 16px * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+.Sidebar .Standalone ol.Notes::after,
+.Standalone ol.Sidebar.Notes::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 16px;
+  width: calc(200% - 16px * 2);
+  border-top: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar header+.Standalone ol.Notes,
+  header+.Standalone ol.NotSidebar.Notes {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar header+.Standalone ol.Notes,
+  .Sidebar header+.Standalone ol.NotSidebar.Notes,
+  .NotSidebar header+.Standalone ol.Sidebar.Notes,
+  header+.Standalone ol.Sidebar.NotSidebar.Notes {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar header+.Standalone ol.Notes,
+  header+.Standalone ol.NotSidebar.Notes {
+    margin-top: 28px;
+  }
+}
+
+section h2,
+.NarrowHeader h2 {
+  font-family: "Alegreya Sans SC";
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: lowercase;
+  position: relative;
+  width: 0;
+  height: 0;
+  white-space: nowrap;
+  line-height: 0;
+  color: #0D7680; /* TODO: Subsection */
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar section h2,
+  .NotSidebar .NarrowHeader h2,
+  section h2.NotSidebar,
+  .NarrowHeader h2.NotSidebar {
+    line-height: 0;
+    padding-left: 2px;
+    margin-left: 49px;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar section h2,
+  .NotSidebar .NarrowHeader h2,
+  section h2.NotSidebar,
+  .NarrowHeader h2.NotSidebar {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar section h2,
+  .Sidebar .NotSidebar .NarrowHeader h2,
+  .Sidebar section h2.NotSidebar,
+  .Sidebar .NarrowHeader h2.NotSidebar,
+  .NotSidebar section h2.Sidebar,
+  .NotSidebar .NarrowHeader h2.Sidebar,
+  section h2.Sidebar.NotSidebar,
+  .NarrowHeader h2.Sidebar.NotSidebar {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar section h2,
+  .NotSidebar .NarrowHeader h2,
+  section h2.NotSidebar,
+  .NarrowHeader h2.NotSidebar {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar section h2,
+  .NotSidebar .NarrowHeader h2,
+  section h2.NotSidebar,
+  .NarrowHeader h2.NotSidebar {
+    margin-bottom: -32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar section h2,
+  .Sidebar .NotSidebar .NarrowHeader h2,
+  .Sidebar section h2.NotSidebar,
+  .Sidebar .NarrowHeader h2.NotSidebar,
+  .NotSidebar section h2.Sidebar,
+  .NotSidebar .NarrowHeader h2.Sidebar,
+  section h2.Sidebar.NotSidebar,
+  .NarrowHeader h2.Sidebar.NotSidebar {
+    margin-bottom: -28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar section h2,
+  .NotSidebar .NarrowHeader h2,
+  section h2.NotSidebar,
+  .NarrowHeader h2.NotSidebar {
+    margin-bottom: -28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  section h2,
+  .NarrowHeader h2 {
+    padding-left: 16px;
+    margin-left: 23px;
+    margin-bottom: 0;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    font-size: 19px;
+  }
+}
+
+@media print {
+
+  section h2,
+  .NarrowHeader h2 {
+    padding-left: 16px;
+    margin-left: 23px;
+    margin-bottom: 0;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    font-size: 19px;
+  }
+}
+
+.Sidebar section h2,
+.Sidebar .NarrowHeader h2,
+section h2.Sidebar,
+.NarrowHeader h2.Sidebar {
+  padding-left: 16px;
+  margin-left: 23px;
+  margin-bottom: 0;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  font-size: 19px;
+}
+
+.Sidebar section h2,
+.Sidebar .NarrowHeader h2,
+section h2.Sidebar,
+.NarrowHeader h2.Sidebar {
+  padding-left: 18px;
+  margin-left: 49px;
+  font-size: inherit;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar section h2,
+  .Sidebar .NarrowHeader h2,
+  section h2.Sidebar,
+  .NarrowHeader h2.Sidebar {
+    margin-left: 39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar header+.Notes.Standalone h2,
+  header+.Notes.Standalone h2.NotSidebar {
+    top: 30px;
+  }
+}
+
+.Controls {
+  width: 100%;
+  padding-left: 42px;
+  padding-right: 42px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff3f1;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  position: relative;
+  left: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .Controls {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Controls,
+  .Sidebar.Controls {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 1023px) {
+  .Controls {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Controls::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 0;
+    width: calc(200% - 0 * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+@media print {
+  .Controls {
+    margin-top: 28px;
+  }
+}
+
+@media print {
+  .Controls::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 0;
+    width: calc(200% - 0 * 2);
+    border-top: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Sidebar .Controls,
+  .Sidebar.Controls {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .Controls,
+  .Sidebar.Controls {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .Sidebar .Controls,
+  .Sidebar.Controls {
+    margin-top: 28px;
+  }
+}
+
+@media print {
+
+  .Sidebar .Controls,
+  .Sidebar.Controls {
+    margin-top: 28px;
+  }
+}
+
+.Sidebar .Controls::after,
+.Sidebar.Controls::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 0;
+  width: calc(200% - 0 * 2);
+  border-top: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.Controls .LinkContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  margin-right: 42px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .Controls .LinkContainer {
+    margin-right: unset;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Controls .LinkContainer {
+    display: none;
+  }
+}
+
+@media print {
+  .Controls .LinkContainer {
+    display: none;
+  }
+}
+
+.Sidebar .Controls .LinkContainer,
+.Controls .Sidebar.LinkContainer {
+  display: none;
+}
+
+@media screen and (max-height: 799px) {
+  .Controls .LinkContainer {
+    display: none;
+  }
+}
+/* 
+@media screen and (max-width: 1023px) {
+  .Controls .MailingListContainer {
+    flex-grow: 1;
+  }
+}
+
+@media print {
+  .Controls .MailingListContainer {
+    flex-grow: 1;
+  }
+}
+
+.Sidebar .Controls .MailingListContainer,
+.Controls .Sidebar.MailingListContainer {
+  flex-grow: 1;
+} */
+
+@media screen and (max-height: 799px) {
+  .Controls .MailingListContainer {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Controls {
+    border-top: 1px solid #ffdd99;
+  }
+
+  .Controls::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .Controls {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media print {
+  .Controls {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.Sidebar .Controls,
+.Sidebar.Controls {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Sidebar .Controls,
+.Sidebar.Controls {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar .Controls,
+  .Sidebar.Controls {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* 
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .Controls {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.Controls a {
+  font-family: "Alegreya Sans SC";
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+.Controls a:hover {
+  text-decoration: underline;
+} */
+
+/* @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .Controls a {
+    font-size: 20px;
+  }
+} */
+/* 
+.Controls form {
+  width: 100%;
+  display: flex;
+}
+
+.Controls label {
+  font-size: 17px;
+  margin-bottom: 2px;
+  color: #766afb;
+} */
+
+/* @media screen and (min-height: 800px) {
+  .Controls label {
+    margin-top: 16px;
+  }
+}
+
+.Controls input {
+  height: 32px;
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid #766afb;
+  background: transparent;
+  font-family: "Alegreya Sans", "Trebuchet MS", "Helvetica Neue", sans-serif;
+  line-height: 32px;
+  font-size: 22px;
+  font-weight: 300;
+  color: #3b0aff;
+  padding: 0;
+  margin: 0;
+  margin-left: -2px;
+  padding-left: 3px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border-radius: 0;
+} */
+
+/* @media screen and (max-width: 1023px) {
+  .Controls input {
+    line-height: 28px;
+  }
+}
+
+@media print {
+  .Controls input {
+    line-height: 28px;
+  }
+} */
+
+.Sidebar .Controls input,
+.Controls input.Sidebar {
+  line-height: 28px;
+}
+/* 
+.Controls input::placeholder {
+  color: inherit;
+  opacity: 0.4;
+  font-size: 18px;
+}
+
+.Controls input:focus {
+  outline: none;
+  border-bottom-width: 3px;
+  margin-bottom: -2px;
+}
+
+.Controls button {
+  appearance: none;
+  border: none;
+  margin: 0;
+  height: 32px;
+  color: #3b0aff;
+  background-color: transparent;
+  font-family: "Alegreya Sans SC";
+  text-transform: lowercase;
+  position: relative;
+  border: 1px solid #3b0aff;
+  border-radius: 8px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 16px;
+} */
+/* 
+.Controls button:disabled {
+  opacity: 0.4;
+}
+
+.Controls button:hover:not(:disabled) {
+  background-color: rgba(59, 10, 255, 0.04);
+}
+
+.Controls button:active:not(:disabled) {
+  background-color: rgba(59, 10, 255, 0.09);
+}
+
+.PostContainer {
+  background-color: #fff3f1;
+  counter-reset: MarginNote 0;
+  color: #3c334d;
+} */
+
+/* @media screen and (min-width: 1024px) {
+  .PostContainer {
+    padding-bottom: 64px;
+  }
+} */
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .PostContainer,
+  .Sidebar.PostContainer {
+    padding-bottom: 56px;
+  }
+}
+
+/* @media screen and (max-width: 1023px) {
+  .PostContainer {
+    padding-bottom: 56px;
+  }
+}
+
+@media print {
+  .PostContainer {
+    padding-bottom: 56px;
+  }
+} */
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer,
+  .NotSidebar.PostContainer {
+    padding-top: 93px;
+    padding-left: 63px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1600px) {
+
+  .NotSidebar .PostContainer,
+  .NotSidebar.PostContainer {
+    padding-left: 84px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .NotSidebar .PostContainer,
+  .NotSidebar.PostContainer {
+    padding-top: 42px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .NotSidebar .PostContainer,
+  .NotSidebar.PostContainer {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .NotSidebar .PostContainer,
+  .NotSidebar.PostContainer {
+    padding-left: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer {
+    background-color: #fff3f1;
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) and (max-width: 1200px) {
+  .PostContainer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media print {
+  .PostContainer {
+    background-color: #fff3f1;
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.Sidebar .PostContainer,
+.Sidebar.PostContainer {
+  background-color: #fff3f1;
+  padding-top: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  .Sidebar .PostContainer,
+  .Sidebar.PostContainer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.PostContainer header {
+  color: #3b0aff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 750px;
+  text-wrap: balanced;
+  box-sizing: content-box;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer header,
+  .PostContainer header.NotSidebar {
+    margin-bottom: calc(16px);
+  }
+
+  .NotSidebar .PostContainer header h1,
+  .PostContainer header.NotSidebar h1 {
+    padding-right: 2em;
+    position: relative;
+    text-shadow: 0px 0px 3px white;
+    z-index: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .NotSidebar .PostContainer header h1,
+  .PostContainer header.NotSidebar h1 {
+    margin-left: calc(max((100% - 600px) / 2, 0px));
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer header h1::before,
+  .PostContainer header.NotSidebar h1::before {
+    z-index: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    width: 100%;
+    border-bottom: 4px solid #3b0aff;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer header {
+    margin-bottom: 28px;
+  }
+
+  .PostContainer header h1 {
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 54px;
+  }
+}
+
+@media print {
+  .PostContainer header {
+    margin-bottom: 28px;
+  }
+
+  .PostContainer header h1 {
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 54px;
+  }
+}
+
+.Sidebar .PostContainer header,
+.PostContainer header.Sidebar {
+  margin-bottom: 28px;
+}
+
+.Sidebar .PostContainer header h1,
+.PostContainer header.Sidebar h1 {
+  margin-bottom: 0;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.PostContainer article {
+  position: relative;
+}
+
+.PostContainer article .PostBodyContainer {
+  max-width: 600px;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer article .PostBodyContainer,
+  .PostContainer article .NotSidebar.PostBodyContainer {
+    padding-right: 42px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .NotSidebar .PostContainer article .PostBodyContainer,
+  .PostContainer article .NotSidebar.PostBodyContainer {
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.PostContainer article p,
+.PostContainer article ul {
+  margin-bottom: 22px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .PostContainer article p,
+  .PostContainer article ul {
+    margin-bottom: 20px;
+  }
+}
+
+@media print {
+
+  .PostContainer article p,
+  .PostContainer article ul {
+    margin-bottom: 20px;
+  }
+}
+
+.Sidebar .PostContainer article p,
+.Sidebar .PostContainer article ul,
+.PostContainer article p.Sidebar,
+.PostContainer article ul.Sidebar {
+  margin-bottom: 20px;
+}
+
+.PostContainer article p li,
+.PostContainer article ul li {
+  margin-bottom: 11px;
+}
+
+.PostContainer article h2 {
+  text-decoration: underline;
+  text-decoration-color: #ffdd99;
+}
+
+@media screen and (min-width: 1024px) {
+  .PostContainer article h2 {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .PostContainer article h2,
+  .PostContainer article h2.Sidebar {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer article h2 {
+    margin-top: 56px;
+  }
+}
+
+/* @media print {
+  .PostContainer article h2 {
+    margin-top: 56px;
+  }
+}
+
+.PostContainer article a {
+  text-decoration-color: rgba(60, 51, 77, 0.5);
+}
+
+.PostContainer article a:hover {
+  color: #3b0aff;
+  text-decoration-color: unset;
+} */
+
+@media screen and (min-width: 1024px) {
+  .PostContainer article blockquote {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .PostContainer article blockquote,
+  .PostContainer article blockquote.Sidebar {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer article blockquote {
+    margin-bottom: 28px;
+  }
+}
+
+@media print {
+  .PostContainer article blockquote {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer article blockquote {
+    margin-left: 32px;
+  }
+}
+
+@media print {
+  .PostContainer article blockquote {
+    margin-left: 32px;
+  }
+}
+
+.Sidebar .PostContainer article blockquote,
+.PostContainer article blockquote.Sidebar {
+  margin-left: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer article blockquote,
+  .PostContainer article blockquote.NotSidebar {
+    margin-left: 42px;
+    margin-right: -42px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-width: 1200px) {
+
+  .NotSidebar .PostContainer article blockquote,
+  .PostContainer article blockquote.NotSidebar {
+    margin-left: 32px;
+    margin-right: 0;
+  }
+}
+
+.PostContainer article img {
+  width: 100%;
+}
+
+.PostContainer .MarginNoteContainer {
+  display: inline;
+}
+
+.PostContainer .MarginNoteContainer .MarginNoteMarker {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .PostContainer .MarginNoteContainer .MarginNoteMarker {
+    display: none;
+  }
+}
+
+.PostContainer .MarginNoteContainer .MarginNoteMarker::after {
+  counter-increment: MarginNote;
+  content: "[" counter(MarginNote) "]";
+  margin-left: 2px;
+  vertical-align: super;
+  line-height: 0;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .PostContainer .MarginNote {
+    position: absolute;
+    margin-top: -32px;
+    font-size: 17px;
+    line-height: 22px;
+    opacity: 0.7;
+    right: 0px;
+    left: 621px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-width: 1600px) {
+  .PostContainer .MarginNote {
+    left: 642px;
+    width: 300px;
+  }
+}
+
+/* @media screen and (max-width: 1439px) {
+  .PostContainer .MarginNote {
+    opacity: 0;
+    background-color: white;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 0px;
+    max-width: 500px;
+    opacity: 0;
+    transition: opacity 0.15s linear;
+    z-index: 10;
+    pointer-events: none;
+  }
+} */
+
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .PostContainer .MarginNote {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .PostContainer .MarginNote,
+  .PostContainer .Sidebar.MarginNote {
+    padding: 14px;
+  }
+}
+
+@media screen and (max-width: 1439px) and (max-width: 1023px) {
+  .PostContainer .MarginNote {
+    padding: 14px;
+  }
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .PostContainer .MarginNote {
+    left: 16px;
+  }
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .PostContainer .MarginNote,
+  .PostContainer .Sidebar.MarginNote {
+    left: 14px;
+  }
+}
+
+@media screen and (max-width: 1439px) and (max-width: 1023px) {
+  .PostContainer .MarginNote {
+    left: 14px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .PostContainer .MarginNote.Visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@media screen and (max-width: 1439px) and (max-width: 1023px) {
+  .PostContainer .MarginNote {
+    left: 0px;
+    right: 0px;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+
+  .Sidebar .PostContainer .MarginNote,
+  .PostContainer .Sidebar.MarginNote {
+    left: 0px;
+    right: 0px;
+    padding: 16px;
+  }
+}
+
+.PostContainer hr {
+  border: none;
+  height: 1px;
+  background-color: #3b0aff;
+}
+
+@media screen and (min-width: 1024px) {
+  .PostContainer hr {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .PostContainer hr,
+  .PostContainer hr.Sidebar {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer hr {
+    margin-top: 56px;
+  }
+}
+
+@media print {
+  .PostContainer hr {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .PostContainer hr {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .PostContainer hr,
+  .PostContainer hr.Sidebar {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer hr {
+    margin-bottom: 56px;
+  }
+}
+
+@media print {
+  .PostContainer hr {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .PostContainer .MailingListInterstitialContainer {
+    margin-left: -16px;
+    margin-right: -16px;
+    position: relative;
+  }
+
+  .PostContainer .MailingListInterstitialContainer::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 0;
+    width: calc(200% - 0 * 2);
+    border-bottom: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+@media print {
+  .PostContainer .MailingListInterstitialContainer {
+    margin-left: -16px;
+    margin-right: -16px;
+    position: relative;
+  }
+
+  .PostContainer .MailingListInterstitialContainer::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -100%;
+    bottom: -100%;
+    left: 0;
+    width: calc(200% - 0 * 2);
+    border-bottom: solid 1px #ffdd99;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+}
+
+.Sidebar .PostContainer .MailingListInterstitialContainer,
+.PostContainer .Sidebar.MailingListInterstitialContainer {
+  margin-left: -16px;
+  margin-right: -16px;
+  position: relative;
+}
+
+.Sidebar .PostContainer .MailingListInterstitialContainer::after,
+.PostContainer .Sidebar.MailingListInterstitialContainer::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  bottom: -100%;
+  left: 0;
+  width: calc(200% - 0 * 2);
+  border-bottom: solid 1px #ffdd99;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer .MailingListInterstitialContainer,
+  .PostContainer .NotSidebar.MailingListInterstitialContainer {
+    border: none;
+    height: 1px;
+    background-color: #3b0aff;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer .MailingListInterstitialContainer,
+  .PostContainer .NotSidebar.MailingListInterstitialContainer {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar .PostContainer .MailingListInterstitialContainer,
+  .Sidebar .PostContainer .NotSidebar.MailingListInterstitialContainer,
+  .NotSidebar .PostContainer .Sidebar.MailingListInterstitialContainer,
+  .PostContainer .Sidebar.NotSidebar.MailingListInterstitialContainer {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar .PostContainer .MailingListInterstitialContainer,
+  .PostContainer .NotSidebar.MailingListInterstitialContainer {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer .MailingListInterstitialContainer,
+  .PostContainer .NotSidebar.MailingListInterstitialContainer {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1024px) and (max-height: 799px) {
+
+  .Sidebar .NotSidebar .PostContainer .MailingListInterstitialContainer,
+  .Sidebar .PostContainer .NotSidebar.MailingListInterstitialContainer,
+  .NotSidebar .PostContainer .Sidebar.MailingListInterstitialContainer,
+  .PostContainer .Sidebar.NotSidebar.MailingListInterstitialContainer {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1023px) {
+
+  .NotSidebar .PostContainer .MailingListInterstitialContainer,
+  .PostContainer .NotSidebar.MailingListInterstitialContainer {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .PostContainer .MailingListInterstitialContainer>*,
+  .PostContainer .NotSidebar.MailingListInterstitialContainer>* {
+    display: none;
+  }
+}
+
+.alternateGlyph {
+  font-feature-settings: "aalt";
+}
+
+.narrowOnly {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .narrowOnly {
+    display: inherit;
+  }
+}
+
+@media print {
+  .narrowOnly {
+    display: inherit;
+  }
+}
+
+.Sidebar .narrowOnly,
+.Sidebar.narrowOnly {
+  display: inherit;
+}
+
+.narrowNonSidebarOnly {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .narrowNonSidebarOnly {
+    display: inherit;
+  }
+}
+
+@media print {
+  .narrowNonSidebarOnly {
+    display: inherit;
+  }
+}
+
+.wideOnly {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .NotSidebar .wideOnly,
+  .NotSidebar.wideOnly {
+    display: inherit;
+  }
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  max-width: 350px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* **** My COLOURS **** */
+.claret {
+  color: #990f3d; /* TODO: Text colour */
+  text-decoration: none;
+}
+
+.teal {
+  color: #0d7680; /* TODO: Text colour */
+}
+
+.oxford {
+  color: #0f5499; /* TODO: Text colour */
+}
+
+.slate {
+  color: #262a33; /* TODO: Text colour */
+}
+
+.paper {
+  color: #fff1e5; /* TODO: Text colour */
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #FFF;
+}
+
+.ftpink {
+  color: #fcd0b1;
+}
+
+.ftgrey {
+  color: #333;
+}
