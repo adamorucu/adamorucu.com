@@ -2312,7 +2312,7 @@ section ol li a,
 
   section ol.MajorProjects,
   .NarrowHeader ol.MajorProjects {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 }
 
@@ -2322,7 +2322,7 @@ section ol li a,
   .Sidebar .NarrowHeader ol.MajorProjects,
   section ol.Sidebar.MajorProjects,
   .NarrowHeader ol.Sidebar.MajorProjects {
-    margin-top: 28px;
+    margin-top: 16px;
   }
 }
 
@@ -2330,7 +2330,7 @@ section ol li a,
 
   section ol.MajorProjects,
   .NarrowHeader ol.MajorProjects {
-    margin-top: 28px;
+    margin-top: 16px;
   }
 }
 
@@ -2338,7 +2338,7 @@ section ol li a,
 
   section ol.MajorProjects,
   .NarrowHeader ol.MajorProjects {
-    margin-top: 28px;
+    margin-top: 16px;
   }
 }
 
@@ -2348,7 +2348,7 @@ section ol li a,
   .Sidebar .NarrowHeader ol.MajorProjects,
   section ol.Sidebar.MajorProjects,
   .NarrowHeader ol.Sidebar.MajorProjects {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 }
 
@@ -2358,7 +2358,7 @@ section ol li a,
   .Sidebar .NarrowHeader ol.MajorProjects,
   section ol.Sidebar.MajorProjects,
   .NarrowHeader ol.Sidebar.MajorProjects {
-    margin-top: 28px;
+    margin-top: 16px;
   }
 }
 
@@ -2368,7 +2368,7 @@ section ol li a,
   .Sidebar .NarrowHeader ol.MajorProjects,
   section ol.Sidebar.MajorProjects,
   .NarrowHeader ol.Sidebar.MajorProjects {
-    margin-top: 28px;
+    margin-top: 16px;
   }
 }
 
@@ -2378,7 +2378,7 @@ section ol li a,
   .Sidebar .NarrowHeader ol.MajorProjects,
   section ol.Sidebar.MajorProjects,
   .NarrowHeader ol.Sidebar.MajorProjects {
-    margin-top: 28px;
+    margin-top: 16px;
   }
 }
 
@@ -2399,7 +2399,7 @@ section ol.MajorProjects li,
   .NotSidebar .NarrowHeader ol.MajorProjects li,
   section ol.MajorProjects li.NotSidebar,
   .NarrowHeader ol.MajorProjects li.NotSidebar {
-    height: 192px;
+    height: 200px;
   }
 }
 
@@ -2524,7 +2524,7 @@ section ol.MajorProjects li:before,
 
 section ol.MajorProjects li.Active:before,
 .NarrowHeader ol.MajorProjects li.Active:before {
-  background-color: rgba(242, 223, 206, 0.35); /* TODO: Major project highlight*/
+  background-color: rgba(242, 223, 206, 0.729); /* TODO: Major project highlight*/
 }
 
 section ol.MajorProjects li:not(.Disabled):hover,
@@ -2534,7 +2534,7 @@ section ol.MajorProjects li:not(.Disabled):hover,
 
 section ol.MajorProjects li:not(.Disabled):hover:before,
 .NarrowHeader ol.MajorProjects li:not(.Disabled):hover:before {
-  background-color: rgba(242, 223, 206, 0.18); /* TODO: Major project highlight*/
+  background-color: rgba(252, 208, 177, 0.7); /* TODO: Major project highlight*/
 }
 
 @media screen and (max-width: 1023px) {
@@ -2925,7 +2925,7 @@ section ol.MajorProjects li.Disabled h3,
 section ol.MajorProjects li h3,
 .NarrowHeader ol.MajorProjects li h3 {
   font-family: "Spartan MB", "Avenir", "Futura", sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   margin-top: 0;
 }
 
@@ -3348,7 +3348,7 @@ section ol.Notes li:not(.Disabled):hover,
 
 section ol.Notes li:not(.Disabled):hover:before,
 .NarrowHeader ol.Notes li:not(.Disabled):hover:before {
-  background-color: rgba(242, 224, 206, 0.18);  /* TODO:Notes highlght*/
+  background-color: rgba(252, 208, 177, 0.7);  /* TODO:Notes highlght*/
 }
 
 section ol.Notes li.Disabled,
@@ -3566,7 +3566,7 @@ section ol.Notes img.Sidebar.Locked,
     bottom: -100%;
     left: 0px;
     width: calc(200% - 0px * 2);
-    border-bottom: solid 1px #ffdd99;
+    border-bottom: solid 1px #ffdd99; /* TODO: */
     transform: scale(0.5);
     transform-origin: 0 0;
     pointer-events: none;
@@ -3905,7 +3905,7 @@ section ol.Sidebar.Notes li:before,
     bottom: -100%;
     left: -31.5px;
     width: calc(200% - -31.5px * 2);
-    border-top: solid 1px #ffdd99;
+    border-top: solid 1px #ffdd99; /* TODO: */
     transform: scale(0.5);
     transform-origin: 0 0;
     pointer-events: none;
@@ -3922,7 +3922,7 @@ section ol.Sidebar.Notes li:before,
     bottom: -100%;
     left: 16px;
     width: calc(200% - 16px * 2);
-    border-top: solid 1px #ffdd99;
+    border-top: solid 1px #ffdd99; /* tODO */
     transform: scale(0.5);
     transform-origin: 0 0;
     pointer-events: none;
@@ -4308,7 +4308,7 @@ section h2.Sidebar,
     display: none;
   }
 }
-/* 
+
 @media screen and (max-width: 1023px) {
   .Controls .MailingListContainer {
     flex-grow: 1;
@@ -4324,7 +4324,7 @@ section h2.Sidebar,
 .Sidebar .Controls .MailingListContainer,
 .Controls .Sidebar.MailingListContainer {
   flex-grow: 1;
-} */
+}
 
 @media screen and (max-height: 799px) {
   .Controls .MailingListContainer {
@@ -4376,7 +4376,7 @@ section h2.Sidebar,
     padding-right: 32px;
   }
 }
-/* 
+
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .Controls {
     padding-left: 32px;
@@ -4392,14 +4392,14 @@ section h2.Sidebar,
 
 .Controls a:hover {
   text-decoration: underline;
-} */
+}
 
-/* @media screen and (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   .Controls a {
     font-size: 20px;
   }
-} */
-/* 
+}
+
 .Controls form {
   width: 100%;
   display: flex;
@@ -4409,9 +4409,9 @@ section h2.Sidebar,
   font-size: 17px;
   margin-bottom: 2px;
   color: #766afb;
-} */
+}
 
-/* @media screen and (min-height: 800px) {
+@media screen and (min-height: 800px) {
   .Controls label {
     margin-top: 16px;
   }
@@ -4435,9 +4435,9 @@ section h2.Sidebar,
   flex-grow: 1;
   flex-shrink: 0;
   border-radius: 0;
-} */
+}
 
-/* @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .Controls input {
     line-height: 28px;
   }
@@ -4447,13 +4447,13 @@ section h2.Sidebar,
   .Controls input {
     line-height: 28px;
   }
-} */
+}
 
 .Sidebar .Controls input,
 .Controls input.Sidebar {
   line-height: 28px;
 }
-/* 
+
 .Controls input::placeholder {
   color: inherit;
   opacity: 0.4;
@@ -4488,8 +4488,8 @@ section h2.Sidebar,
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 16px;
-} */
-/* 
+}
+
 .Controls button:disabled {
   opacity: 0.4;
 }
@@ -4506,13 +4506,13 @@ section h2.Sidebar,
   background-color: #fff3f1;
   counter-reset: MarginNote 0;
   color: #3c334d;
-} */
+}
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .PostContainer {
     padding-bottom: 64px;
   }
-} */
+}
 
 @media screen and (min-width: 1024px) and (max-height: 799px) {
 
@@ -4522,7 +4522,7 @@ section h2.Sidebar,
   }
 }
 
-/* @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .PostContainer {
     padding-bottom: 56px;
   }
@@ -4532,7 +4532,7 @@ section h2.Sidebar,
   .PostContainer {
     padding-bottom: 56px;
   }
-} */
+}
 
 @media screen and (min-width: 1024px) {
 
@@ -4797,7 +4797,7 @@ section h2.Sidebar,
   }
 }
 
-/* @media print {
+@media print {
   .PostContainer article h2 {
     margin-top: 56px;
   }
@@ -4810,7 +4810,7 @@ section h2.Sidebar,
 .PostContainer article a:hover {
   color: #3b0aff;
   text-decoration-color: unset;
-} */
+}
 
 @media screen and (min-width: 1024px) {
   .PostContainer article blockquote {
@@ -4920,7 +4920,7 @@ section h2.Sidebar,
   }
 }
 
-/* @media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .PostContainer .MarginNote {
     opacity: 0;
     background-color: white;
@@ -4935,7 +4935,7 @@ section h2.Sidebar,
     z-index: 10;
     pointer-events: none;
   }
-} */
+}
 
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
   .PostContainer .MarginNote {
@@ -5292,7 +5292,7 @@ section h2.Sidebar,
 }
 
 .ftpink {
-  color: #fcd0b1;
+  color: rgb(252, 208, 177);
 }
 
 .ftgrey {
